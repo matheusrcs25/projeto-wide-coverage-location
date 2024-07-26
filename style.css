@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    height: 500px;
+    width: 595px;
+    margin-top: 163px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+a {
+    cursor: pointer;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.header-link {
+    width: 83px;
+    height: 21px;
+    font-weight: 400;
+    color: #17233D;
+    text-align: center;
+    margin-right: 32px;
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    border: 1px solid #4CB538;
+    background-color: #6FBF44;
+    border-radius: 6px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+section {
+    display: inline-block;
+    margin-left: 84px;
+}
+
+h1 {
+    width: 582px;
+    font-weight: 700;
+    font-size: 62px;
+    color: #161A49;
+}
+
+p {
+    width: 493px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.main-link {
+    width: 112px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+}
+
+@media screen and (max-width :900px) {
+    img {
+        width: 279.921px;
+        height: 268.932px;
+        display: block;
+        position: absolute;
+        top: 60%;
+    }
+
+    .header-link {
+        display: none;
+    }
+
+    button {
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px; /* 100% */
+        letter-spacing: 0.596px;
+        text-align: center;
+        width: 278px;
+        height: 60px;
+        margin-top: 124px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 18px;
+        line-height: 33px; /* 183.333% */
+        letter-spacing: 0.5px;
+        width: 304px;
+        height: 165px;
+    }
+
+    .main-link {
+        font-size: 18px;
+        letter-spacing: 1px;
+        height: 27px;
+        width: 112px;
+        display: block;
+        margin: auto;
+    }
+}
